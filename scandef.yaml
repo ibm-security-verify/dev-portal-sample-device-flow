@@ -1,0 +1,19 @@
+defaults:
+  jiraProjectKey: VDEV
+  jiraIssueTypeName: Task
+  jiraAutoCloseTransitionName: "Done"
+  jiraFields:
+    labels:
+    - "dev-portal-sample-device-flow"
+    - "security-scanning"
+    components:
+      - name: "dev-portal"
+
+squads:
+- name: development
+  sourceRepositories:
+  - name: Sample code for device code flow
+    sourceRepos: 
+    - name: github.com/ibm-security-verify/dev-portal-sample-device-flow
+      properties:
+      - repository_token_name: github-com-token
