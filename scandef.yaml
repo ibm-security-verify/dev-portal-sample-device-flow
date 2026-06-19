@@ -10,7 +10,7 @@ defaults:
       - name: "dev-portal"
 
 squads:
-- name: development
+- name: dev-sample-device-flow
   sourceRepositories:
   - name: Sample code for device code flow
     sourceRepos: 
